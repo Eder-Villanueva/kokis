@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kokis</string>
+    <string name="ind">individual</string>
+    <string name="chica">Chica</string>
+    <string name="mediana">Mediana</string>
+    <string name="grande">Grande</string>
+    <string name="familiar">Familiar</string>
+    <string name="cuadrada">Cuadrada</string>
+
+
+    <string name="ing">Ing Ext</string>
+    <string name="ref">Refresco</string>
+    <string name="re">Relleno</string>
+
+    <string name="calcu">calc.</string>
+    <string name="reb">rebanadas</string>
+
+</resources>

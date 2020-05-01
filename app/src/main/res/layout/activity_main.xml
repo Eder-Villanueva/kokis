@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnnaranja"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:editable="false"
+            android:textAlignment="textEnd"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/con"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/limpiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:text="C"
+            android:textColor="@drawable/btn2"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/resultado"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/btn"
+            android:gravity="end"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@drawable/btn2"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/res"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="22dp">
+
+            <LinearLayout
+
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn"
+                android:padding="20dp"
+                android:textColor="@drawable/btn2">
+
+                <Button
+
+                    android:id="@+id/reyena"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/re"
+                    android:textColor="@drawable/btn2" />
+
+                <Button
+
+                    android:id="@+id/refresco"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/ref"
+                    android:textColor="@drawable/btn2" />
+
+
+                <Button
+
+                    android:id="@+id/ingrediente"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/ing"
+                    android:textColor="@drawable/btn2" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+
+                >
+
+                <Button
+
+                    android:id="@+id/individual"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:selectAllOnFocus="true"
+                    android:text="@string/ind"
+                    android:textColor="@drawable/btn2" />
+
+                <Button
+
+                    android:id="@+id/chica"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/chica"
+                    android:textColor="@drawable/btn2" />
+
+
+                <Button
+
+                    android:id="@+id/mediana"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/mediana"
+                    android:textColor="@drawable/btn2" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+
+                    android:id="@+id/grande"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/grande"
+                    android:textColor="@drawable/btn2" />
+
+                <Button
+
+                    android:id="@+id/familiar"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/familiar"
+                    android:textColor="@drawable/btn2" />
+
+                <Button
+
+                    android:id="@+id/cuadrada"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/cuadrada"
+                    android:textColor="@drawable/btn2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+
+
+                >
+
+
+                <Button
+                    android:id="@+id/eliminar"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="eliminar"
+                    android:textColor="@drawable/btn2" />
+
+                <Button
+                    android:id="@+id/reb"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn"
+                    android:text="@string/reb"
+                    android:textColor="@drawable/btn2" />
+
+                <Button
+                    android:id="@+id/cal"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btnnaranja"
+
+                    android:text="@string/calcu"
+                    android:textColor="@drawable/btn2" />
+            </LinearLayout>
+
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

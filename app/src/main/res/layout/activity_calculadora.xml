@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#000000"
+    tools:context=".calculadora">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculadora"
+            android:gravity="center"/>
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#FFF"
+            android:hint="0"
+            android:numeric="decimal"
+            android:id="@+id/contcalc"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text=""
+            android:textSize="25dp"
+              />
+
+        <TextView
+            android:numeric="decimal"
+            android:id="@+id/ope"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text=""
+            android:textSize="25dp"
+            />
+
+
+
+        <LinearLayout
+            >
+            <Button
+                android:id="@+id/traer"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="traer"
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/btnnaranja"/>
+
+
+            <Button
+                android:id="@+id/btCancelar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Realizado"
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/btncl">
+
+            </Button>
+
+        </LinearLayout>
+        <LinearLayout
+
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05">
+
+            <Button
+
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/uno"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/dos"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="2" />
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/tres"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/div"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="/"
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/btncl"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05">
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/cuatro"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="4" />
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/cinco"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="5" />
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/seis"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="6" />
+            <Button
+                android:id="@+id/multiplicacion"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/btncl"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            >
+
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/siete"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="7" />
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/ocho"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="8" />
+
+            <Button android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/nueve"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="9" />
+            <Button
+                android:id="@+id/suma"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/btncl"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            >
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/clean"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="C" />
+
+
+            <Button
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"
+                android:id="@+id/cero"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="13dp" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:textSize="13dp"
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/calc"/>
+            <Button
+                android:id="@+id/resta"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:text="-"
+                android:textColor="@drawable/btn2"
+                android:background="@drawable/btncl"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:numeric="decimal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=""
+            android:textSize="25dp"
+            />
+
+
+    </TableLayout>
+
+
+
+</LinearLayout>
