@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".modificar"></activity>
-        <activity android:name=".rebanadas" />
-        <activity android:name=".calculadora" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".menu"></activity>
+        <activity android:name=".calcular"></activity>
+        <activity
+            android:name=".splash.splash"
+            android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

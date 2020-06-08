@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="pizzas"
+        android:id="@+id/pizzas"
+        />
+
+    <item android:title="reyeno"
+        android:id="@+id/reyeno"
+        />
+
+    <item android:title="promociones"
+        android:id="@+id/promo"
+        />
+    <item android:title="ajustes"
+        android:id="@+id/ajustes"
+        />
+</menu>

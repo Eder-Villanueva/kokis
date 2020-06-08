@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    android:background="#000000"
-    tools:context=".calculadora">
+    android:background="#FFFF" >
 
 
     <TableLayout
@@ -24,7 +23,7 @@
             android:gravity="center"/>
         <EditText
             android:textColor="#fff"
-            android:textColorHint="#FFF"
+            android:textColorHint="#CEA98F"
             android:hint="0"
             android:numeric="decimal"
             android:id="@+id/contcalc"
